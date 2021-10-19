@@ -5,3 +5,5 @@ sudo pip3 install --upgrade "ipython[all]"
 
 Add the following line to the ent in ~/.bashrc
 PATH=$PATH:/home/pi/.local/bin
+
+sudo apt install spyder -y
