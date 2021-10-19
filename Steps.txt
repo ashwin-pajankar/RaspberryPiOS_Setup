@@ -25,4 +25,4 @@ sudo apt full-upgrade -y
 sudo rpi-update
 
 
-
+apt autoremove
