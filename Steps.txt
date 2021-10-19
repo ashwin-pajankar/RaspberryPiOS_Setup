@@ -24,5 +24,10 @@ sudo apt update
 sudo apt full-upgrade -y
 sudo rpi-update
 
+Enable X11 Forwarding
+Open the following file,
+sudo nano /etc/ssh/sshd_config
+Enable the following line by removeing # in the beginning
+X11Forwarding yes
 
 apt autoremove
