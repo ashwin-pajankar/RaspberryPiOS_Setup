@@ -10,6 +10,14 @@ ssid="TP-Link_710E"
 psk="internet1"
 }
 
+Search the IP Address with the following tools,
+https://nmap.org/zenmap/
+https://www.advanced-ip-scanner.com/
+
+Find out the IP address and then use the following tools to connect,
+https://www.putty.org/
+https://www.bitvise.com/ssh-client-download
+
 After logging in, run the following command on the terminal,
 
 sudo raspi-config
@@ -29,5 +37,8 @@ Open the following file,
 sudo nano /etc/ssh/sshd_config
 Enable the following line by removeing # in the beginning
 X11Forwarding yes
+
+Download and install XMing Server for Windows,
+https://sourceforge.net/projects/xming/
 
 apt autoremove
