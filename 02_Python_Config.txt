@@ -1,5 +1,6 @@
 sudo apt install idle3 -y
 sudo apt install spyder -y
+sudo apt install python3-pip
 
 pip3 install jupyter
 pip3 install notebook
