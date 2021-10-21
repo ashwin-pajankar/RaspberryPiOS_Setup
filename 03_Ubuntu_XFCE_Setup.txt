@@ -28,6 +28,10 @@ sudo update-alternatives --config x-window-manager
 
 # Install Firefox
 
+# Install Synaptic Package Manager
+
+
+# Remove unnecessary packages
 sudo apt remove xterm -y
 sudo apt remove xfburn -y
 sudo apt autoremove -y
