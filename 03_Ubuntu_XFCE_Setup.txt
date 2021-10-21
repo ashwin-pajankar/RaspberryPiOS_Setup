@@ -27,9 +27,10 @@ sudo update-alternatives --config x-session-manager
 sudo update-alternatives --config x-window-manager
 
 # Install Firefox
+sudo apt install firefox -y
 
 # Install Synaptic Package Manager
-
+sudo apt install synaptic -y
 
 # Remove unnecessary packages
 sudo apt remove xterm -y
