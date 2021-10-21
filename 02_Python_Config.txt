@@ -2,6 +2,7 @@ sudo apt install idle3 -y
 sudo apt install spyder -y
 sudo apt install python3-pip -y
 
+pip3 install thonny
 pip3 install jupyter
 pip3 install notebook
 pip3 install --upgrade nbconvert
