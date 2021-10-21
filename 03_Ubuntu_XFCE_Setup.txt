@@ -26,6 +26,7 @@ sudo dpkg-reconfigure lightdm
 sudo update-alternatives --config x-session-manager
 sudo update-alternatives --config x-window-manager
 
+# Install Firefox
 
 sudo apt remove xterm -y
 sudo apt remove xfburn -y
