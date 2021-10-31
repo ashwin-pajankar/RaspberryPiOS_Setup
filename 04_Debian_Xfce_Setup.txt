@@ -1,0 +1,38 @@
+https://ubuntu.com/download/raspberry-pi
+
+https://raspi.debian.net/tested-images/
+
+Search the IP Address with the following tools,
+https://nmap.org/zenmap/
+https://www.advanced-ip-scanner.com/
+
+Find out the IP address and then use the following tools to connect,
+https://www.putty.org/
+https://www.bitvise.com/ssh-client-download
+
+apt install -y sudo
+apt install -y nano
+
+sudo nano /etc/ssh/sshd_config
+
+PermitRootLogin yes
+X11Forwarding yes
+
+
+sudo apt install -y xorg slim xfce
+sudo apt install -y firefox-esr
+sudo apt install -y gcc
+sudo apt install -y g++
+
+sudo hostnamectl set-hostname rpi4
+sudo nano /etc/hosts
+invoke-rc.d hostname.sh start
+
+sudo apt autoremove -y
+
+cat /etc/shells
+
+sudo init 6
+
+Download and install XMing Server for Windows,
+https://sourceforge.net/projects/xming/

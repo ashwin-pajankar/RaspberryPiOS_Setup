@@ -1,3 +1,5 @@
+https://www.raspberrypi.com/software/
+
 The following are the contents of wpa_supplicant.conf
 
 country=IN
@@ -42,3 +44,5 @@ Download and install XMing Server for Windows,
 https://sourceforge.net/projects/xming/
 
 apt autoremove
+
+cat /etc/shells

@@ -1,3 +1,5 @@
+https://ubuntu.com/download/raspberry-pi
+
 GNOME
 
 sudo apt update
