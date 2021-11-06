@@ -2,7 +2,7 @@ https://www.python.org/
 https://thonny.org/
 
 python3 -V
-python3 --V
+
 
 # Raspbian
 
