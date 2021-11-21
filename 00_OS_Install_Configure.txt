@@ -1,5 +1,6 @@
 https://www.raspberrypi.com/software/
 
+create an empty file named ssh.
 The following are the contents of wpa_supplicant.conf
 
 country=IN
@@ -14,11 +15,10 @@ psk="internet1"
 
 Search the IP Address with the following tools,
 https://nmap.org/zenmap/
-https://www.advanced-ip-scanner.com/
+nmap -sn 192.168.0.*
 
 Find out the IP address and then use the following tools to connect,
-https://www.putty.org/
-https://www.bitvise.com/ssh-client-download
+https://mobaxterm.mobatek.net/
 
 After logging in, run the following command on the terminal,
 
@@ -28,11 +28,15 @@ Once the entire setup is done, then run the following commands,
 
 sudo rm /etc/xdg/autostart/piwiz.desktop
 
+https://www.realvnc.com/en/connect/download/viewer/
+
 Commands to update the software and the firmware
 
 sudo apt update
 sudo apt full-upgrade -y
 sudo rpi-update
+
+sudo apt install konsole -y
 
 Enable X11 Forwarding
 Open the following file,
@@ -40,9 +44,10 @@ sudo nano /etc/ssh/sshd_config
 Enable the following line by removeing # in the beginning
 X11Forwarding yes
 
-Download and install XMing Server for Windows,
-https://sourceforge.net/projects/xming/
-
-apt autoremove
+sudo apt autoremove -y
 
 cat /etc/shells
+
+sudo init 6
+
+sudo apt install leafpad -y

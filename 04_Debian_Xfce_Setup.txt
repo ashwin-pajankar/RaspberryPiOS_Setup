@@ -1,14 +1,15 @@
-https://ubuntu.com/download/raspberry-pi
-
+https://www.raspberrypi.com/software/
+sudo apt install rpi-imager -y
 https://raspi.debian.net/tested-images/
 
 Search the IP Address with the following tools,
 https://nmap.org/zenmap/
-https://www.advanced-ip-scanner.com/
+nmap -sn 192.168.0.*
 
 Find out the IP address and then use the following tools to connect,
-https://www.putty.org/
-https://www.bitvise.com/ssh-client-download
+https://mobaxterm.mobatek.net/
+
+passwd
 
 apt install -y sudo
 apt install -y nano
@@ -18,8 +19,9 @@ sudo nano /etc/ssh/sshd_config
 PermitRootLogin yes
 X11Forwarding yes
 
+sudo init 6
 
-sudo apt install -y xorg slim xfce
+sudo apt install -y xorg slim xfce4
 sudo apt install -y firefox-esr
 sudo apt install -y gcc
 sudo apt install -y g++
@@ -32,14 +34,12 @@ sudo apt autoremove -y
 
 cat /etc/shells
 
-nmcli dev status
+
 nmcli radio wifi
 nmcli radio wifi on
 nmcli dev wifi list
 nmcli d wifi connect TP-Link_710E password internet1
 nmcli con show
+nmcli dev status
 
 sudo init 6
-
-Download and install XMing Server for Windows,
-https://sourceforge.net/projects/xming/

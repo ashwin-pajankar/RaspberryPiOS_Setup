@@ -1,16 +1,17 @@
 https://www.raspberrypi.com/software/
 
+sudo apt install rpi-imager -y
+
 https://ubuntu.com/download/raspberry-pi
 
 Modify the network-config file in the SD Card
 
 Search the IP Address with the following tools,
 https://nmap.org/zenmap/
-https://www.advanced-ip-scanner.com/
 
 Find out the IP address and then use the following tools to connect,
 https://www.putty.org/
-https://www.bitvise.com/ssh-client-download
+https://mobaxterm.mobatek.net/
 
 sudo apt update
 
@@ -50,8 +51,5 @@ sudo apt install synaptic -y
 sudo apt remove xterm -y
 sudo apt remove xfburn -y
 sudo apt autoremove -y
-
-Download and install XMing Server for Windows,
-https://sourceforge.net/projects/xming/
 
 cat /etc/shells
